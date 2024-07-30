@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/firebase.png';
+import Logo from '../assets/pf (3).png';
 import '../components/Style/navbar.css';
 
 const Navbar = () => {
