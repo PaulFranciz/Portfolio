@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Boder';
+    src: url('/public/fonts/bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }

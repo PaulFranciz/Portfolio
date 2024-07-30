@@ -36,11 +36,6 @@ const Home = () => {
             <div className='profile-image'></div>
           </div>
         </div>
-        <div className='social-links'>
-          <a href="#" className='social-icon'><FaGithub /></a>
-          <a href="#" className='social-icon'><FaLinkedin /></a>
-          <a href="#" className='social-icon'><FaTwitter /></a>
-        </div>
       </div>
     </div>
   );

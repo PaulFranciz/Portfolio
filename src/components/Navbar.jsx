@@ -49,19 +49,19 @@ const Navbar = () => {
         <div className='social-icons desktop'>
           <ul>
             <li>
-              <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.linkedin.com/in/paul-francis-%F0%9F%92%BB-123281260/' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin />
                 <span className="icon-name">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href='https://github.com' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/PaulFranciz' target='_blank' rel='noopener noreferrer'>
                 <FaGithub />
                 <span className="icon-name">GitHub</span>
               </a>
             </li>
             <li>
-              <a href='mailto:your.email@example.com'>
+              <a href='mailto:pauledet339@gmail.com'>
                 <HiOutlineMail />
                 <span className="icon-name">Email</span>
               </a>
@@ -87,17 +87,17 @@ const Navbar = () => {
         <div className='social-icons mobile'>
           <ul>
             <li>
-              <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.linkedin.com/in/paul-francis-%F0%9F%92%BB-123281260/' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href='https://github.com' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/PaulFranciz' target='_blank' rel='noopener noreferrer'>
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href='mailto:your.email@example.com'>
+              <a href='mailto:pauledet339@gmail.com'>
                 <HiOutlineMail />
               </a>
             </li>
