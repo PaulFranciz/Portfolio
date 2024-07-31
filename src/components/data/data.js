@@ -1,13 +1,15 @@
-// data.js
+import Aries from '../../assets/projects/Aries.png';
+
+
 export const projects = [
   {
     id: 1,
-    title: "Neon Nights",
-    category: "Web Design",
-    image: "https://blog.tubikstudio.com/wp-content/uploads/2023/07/posters-application-ecommerce-design-tubik.jpg",
-    description: "A cyberpunk-inspired web experience",
-    github: "https://github.com/yourusername/neon-nights",
-    demo: "https://neon-nights-demo.com"
+    title: "ARIES",
+    category: "E-commerce",
+    image: Aries,
+    description: "ARIES is a modern e-commerce platform for stylish clothing and accessories, offering a seamless shopping experience with a curated selection of high-quality products.",
+    github: "https://github.com/PaulFranciz/Aries",
+    demo: "https://aries-store.vercel.app"
   },
   {
     id: 2,
