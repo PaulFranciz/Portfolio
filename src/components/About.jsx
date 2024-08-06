@@ -53,7 +53,7 @@ const About = () => {
       <div className="content-wrapper">
         <h2 className="section-title" data-text="ABOUT ME">ABOUT ME</h2>
         <div className="badass-content">
-          <p className="intro">
+          <p className="about-me">
             I am a <span className="highlight">Frontend Developer</span> with a passion for creating
             <span className="highlight"> dynamic user experiences</span>. My journey in tech is driven by
             transforming ideas into <span className="highlight">beautifully crafted code</span>.

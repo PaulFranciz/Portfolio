@@ -57,12 +57,16 @@
   margin: 0 auto;
 }
 
-.intro, .outro {
+.about-me .outro {
   margin-bottom: 40px;
 }
 
+.about-me {
+ color: #d3d6d6;
+}
+
 .highlight {
-  color: #00ffff;
+  color: #f2f3f6;
   font-weight: 600;
 }
 
@@ -104,7 +108,7 @@
 
 .cta-about-button {
   display: inline-block;
-  background-color: #00ffff;
+  background-color: #d3d6d6;
   color: #111;
   font-weight: 600;
   text-decoration: none;
@@ -119,7 +123,7 @@
 .cta-about-button:hover {
   background-color: #fff;
   color: #111;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(78, 80, 80, 0.5);
 }
 
 @media (max-width: 768px) {
