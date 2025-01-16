@@ -276,6 +276,34 @@ export const DATA = {
       image: "",
       video: "https://portfolio-video-demo.netlify.app/videos/sharpcutz demo.mp4",
     },
+    {
+      title: "Tesser",
+      href: "https://tesser.netlify.app/",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "Tesser is a project management tool | Features similar capabilities as Jira",
+      technologies: [
+        "React.js",
+        "TypeScript", 
+         "SCSS",
+         "Redux"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tesser.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/PaulFranciz/Tesser",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "#",
+    },
   ],
   hackathons: [
     {
