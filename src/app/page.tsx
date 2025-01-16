@@ -165,7 +165,6 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                    As a software developer,{" "}
-                  {DATA.hackathons.length}
                   I thrive on collaboration and community engagement. 
                   I am passionate about contributing to open-source projects, 
                   sharing knowledge through mentorship and workshops,
