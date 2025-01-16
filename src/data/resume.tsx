@@ -228,7 +228,8 @@ export const DATA = {
       technologies: [
         "React.js",
         "TypeScript", 
-         "RESTful API"
+         "RESTful API",
+         "Redux"
       ],
       links: [
         {
