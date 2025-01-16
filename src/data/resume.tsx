@@ -248,7 +248,7 @@ export const DATA = {
     },
     {
       title: "Sharpcutz",
-      href: "https://llm.report",
+      href: "https://twin-scissors.netlify.app/",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -264,12 +264,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://twin-scissors.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/PaulFranciz/Twin-Scissors",
           icon: <Icons.github className="size-3" />,
         },
       ],
