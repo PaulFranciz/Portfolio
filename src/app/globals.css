@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Pally Font Family */
+@font-face {
+  font-family: 'Pally';
+  src: url('/fonts/Pally-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: 'Pally';
+  src: url('/fonts/Pally-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: 'Pally';
+  src: url('/fonts/Pally-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+}
+
 @layer base {
     :root {
       --background: 0 0% 100%;

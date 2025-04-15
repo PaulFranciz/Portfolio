@@ -13,18 +13,22 @@ export const DATA = {
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle—architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
-    "Next.js",
     "Typescript",
+    "Next.js",
+    "React",
     "Javascript",
+    "PostgreSql",
+    "Convex",
+    "Clerk",
     "Firebase",
     "MongoDB",
-    "Solidity",
-    "Hardhat",
-    "Thirdweb",
-    "Sanity CMS",
+    "Redis",
+    "TailwindCSS",
     "Git",
     "Github",
+    "Figma",
+    "Shadcn UI",
+    ""
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -158,7 +162,7 @@ export const DATA = {
     },
     {
       title: "Rehabify",
-      href: "https://Rehabifyng.com",
+      href: "https://Rehabifyhealth.com",
       dates: "Aug 2024 - Present",
       active: true,
       description:
@@ -179,7 +183,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://Rehabifyng.com",
+          href: "https://Rehabifyhealth.com",
           icon: <Icons.globe className="size-3" />,
         },
        
@@ -187,37 +191,7 @@ export const DATA = {
       image: "",
       video: "https://portfolio-video-demo.netlify.app/videos/rehabify-vid.mp4",
     },
-    {
-      title: "Hogis Group - OrderNow",
-      href: "https://hogis-group.netlify.app",
-      dates: "Aug 2024 - Dec 2024",
-      active: true,
-      description:
-        "Experience ultimate convenience with Hogis Group's OrderNow platform! Whether you're craving delicious meals, booking an event, or need hotel services, OrderNow connects you seamlessly with any of our three branches.",
-      technologies: [
-       "React.js",
-        "Javascript",
-        "Firebase",
-        "Tailwind css",
-        "CSS3",
-        "Netlify severless function",
-        "Paystack",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hogis-group.netlify.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/OrderNow.png",
-      video: "",
-    },
+
     {
       title: "Otoño - music player",
       href: "https://otono-music.netlify.app",
@@ -246,36 +220,7 @@ export const DATA = {
       image: "",
       video: "https://portfolio-video-demo.netlify.app/videos/Otono video demo.mp4",
     },
-    {
-      title: "Sharpcutz",
-      href: "https://twin-scissors.netlify.app/",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "GSAP",
-        "Shadcn UI",
-        "Radix",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://twin-scissors.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/PaulFranciz/Twin-Scissors",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://portfolio-video-demo.netlify.app/videos/sharpcutz demo.mp4",
-    },
+  
     {
       title: "Tesser",
       href: "https://tesser.netlify.app/",
@@ -306,6 +251,41 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Hogis-OrderNow",
+      dates: "Currently Working On",
+      location: "",
+      description:
+        " full-featured online food ordering platform built with Next.js and TypeScript. It supports user authentication, shared cart functionality, payment integration, and an admin dashboard for order and menu management. The application features a modern UI   with Tailwind CSS and leverages Convex for backend operations.",
+      image:
+        "",
+      links: [
+      
+        {
+          title: "OrderNow",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://hogis-group-order-now.vercel.app/",
+        },
+      ],
+    },
+    {
+      title: "TicketCrib",
+      dates: "Currently Working On",
+      location: "",
+      description:
+        `Developed TicketCrib, a real-time event ticketing platform built with Next.js, Convex, Clerk, and Paystack. Implemented features including real-time ticket availability, smart queue management, secure payment processing, digital ticketing with QR codes, and automated refunds. Leveraged modern UI libraries (Tailwind CSS, shadcn/ui) for a responsive, accessible user experience, and integrated authentication and real-time backend updates for seamless event management and ticket sales.`,
+      image:
+        "",
+      links: [
+      
+        {
+          title: "TicketCib",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://ticket-crib.vercel.app/",
+        },
+      ],
+    },
+   
     {
       title: "Team Lead at Rehabify",
       dates: "Leadership and Team Collaboration",
@@ -339,48 +319,6 @@ export const DATA = {
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-    {
-      title: "Aries (E-Commerce)",
-      dates: "Currently Working On",
-      location: "",
-      description:
-        "Teamed up with a Friend to build an e-commerce website that will sell luxury fashion, gadgets, and home interior products, featuring top-tier brands like LV, Nike, Gucci, Apple, Samsung, and more. The goal is to build a dynamic, user-friendly platform where products can be managed using Sanity CMS.",
-      image:
-        "/Aries.png",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
-      ],
-    },
-   
-    {
-      title: "TipJar",
-      dates: "Currently Working On",
-      location: "",
-      description:
-        "A decentralized blockchain application that enables seamless, transparent, and secure peer-to-peer tipping and micropayments.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
-      ],
-    },
+  
   ],
 } as const;
