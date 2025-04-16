@@ -11,7 +11,7 @@ export const DATA = {
     "Senior Frontend Engineer. I love building things and helping people. Very active on 𝕏.",
   summary:
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle—architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.webp",
   skills: [
     "Typescript",
     "Next.js",
@@ -28,7 +28,6 @@ export const DATA = {
     "Github",
     "Figma",
     "Shadcn UI",
-    ""
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -83,8 +82,8 @@ export const DATA = {
       location: "Remote",
       title: "Senior Frontend Engineer",
       logoUrl: "/Nextbud.jpg",
-      start: "August 2024",
-      end: "Present",
+      start: "Aug, 2024",
+      end: "Jan, 2025",
       description:
         "I spearheaded the development of the Landing page and the admin dashboard using Next.js, significantly improving data management efficiency by 40% through the implementation of real-time monitoring and updates. By collaborating closely with the design team to adhere to accessibility standards, I enhanced usability across diverse user groups, resulting in a 20% increase in user satisfaction. Additionally, I optimized the dashboard's performance through techniques such as lazy loading and code splitting, cutting initial load times by 50% to ensure a seamless and efficient user experience.",
     },
@@ -279,7 +278,7 @@ export const DATA = {
       links: [
       
         {
-          title: "TicketCib",
+          title: "TicketCrib",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://ticket-crib.vercel.app/",
         },
