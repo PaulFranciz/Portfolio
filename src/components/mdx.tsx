@@ -43,7 +43,19 @@ function CustomLink(props: any) {
 }
 
 function RoundedImage(props: any) {
-  return <Image alt={props.alt} className="rounded-lg" {...props} />;
+  const { alt, ...rest } = props;
+  return (
+    <div className="relative my-6 overflow-hidden rounded-lg">
+      <Image
+        alt={alt}
+        className="rounded-lg"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw"
+        style={{ margin: '0 auto' }}
+        quality={100}
+        {...rest}
+      />
+    </div>
+  );
 }
 
 // This replaces rehype-slug

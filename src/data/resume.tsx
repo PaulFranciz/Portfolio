@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, BookOpenIcon } from "lucide-react";
 
 export const DATA = {
   name: "Paul Francis",
@@ -16,12 +16,11 @@ export const DATA = {
     "Typescript",
     "Next.js",
     "React",
-    "Javascript",
-    "PostgreSql",
     "Convex",
     "Clerk",
-    "Firebase",
-    "MongoDB",
+    "NoSQL",
+    "SQL",
+    "Sanity",
     "Redis",
     "TailwindCSS",
     "Git",
@@ -31,7 +30,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-
+    { href: "/blog", icon: BookOpenIcon, label: "Blog" },
   ],
   contact: {
     email: "pauledet339@gmail.com",
@@ -41,39 +40,28 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/paulfranciz",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://dub.sh/yQres2n",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://dub.sh/Paul_Franciz",
         icon: Icons.x,
-
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
       email: {
         name: "Send Email",
         url: "pauledet339@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
   },
-
   work: [
     {
       company: "Nextbud",
@@ -111,7 +99,6 @@ export const DATA = {
       description:
         "Led the development of a comprehensive digital menu platform that seamlessly incorporated customer feedback mechanisms. Enhanced the user experience through custom motion design advertisements, which contributed significantly to business growth, achieving a 60% increase in sales revenue.",
     },
-
   ],
   education: [
     {
@@ -132,6 +119,99 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Hogis OrderNow - Online Food Ordering & Delivery",
+      href: "https://hogis-group-order-now.vercel.app",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        `Order delicious food from Hogis branches in Calabar. Easy online ordering, fast delivery, and multiple restaurant options from the premier hospitality group.`,
+      technologies: [
+        "Next.js",
+        "Convex",
+        "Clerk",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hogis-group-order-now.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/PaulFranciz/Hogis-Group-OrderNow.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/diaknp7in/image/upload/v1744036785/ChatGPT_Image_Apr_7_2025_02_02_25_PM_zcmnux.png",
+      video:
+        "",
+    },
+    {
+      title: "TicketCrib - A Ticketing Platform",
+      href: "https://ticket-crib.vercel.app/",
+      dates: "Feb 2025 - Present",
+      active: true,
+      description:
+        `TicketCrib is a real-time event ticketing platform built with Next.js, Convex, Clerk, and Paystack. It features real-time ticket availability, smart queue management, secure payment processing, digital ticketing with QR codes, and automated refunds. The platform leverages modern UI libraries (Tailwind CSS, shadcn/ui) for a responsive, accessible user experience and integrates authentication and real-time backend updates for seamless event management and ticket sales.`,
+      technologies: [
+        "Next.js",
+        "Convex",
+        "Clerk",
+        "Typescript",
+        "Paystack",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ticket-crib.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/OtuEmmanuella/TicketCrib.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1746032511/ChatGPT_Image_Apr_30_2025_06_01_28_PM_aahqsv.png",
+      video: "",
+    },
+    {
+      title: "Trainify - A Learning Management System",
+      href: "https://trainify-weld.vercel.app/",
+      dates: "March 2025 - Present",
+      active: true,
+      description:
+        `A modern, feature-rich Learning Management System built with Next.js 15, Sanity CMS, Clerk, and Stripe. Features real-time content updates, course progress tracking, and secure payment processing.`,
+      technologies: [
+        "Next.js",
+        "Sanity",
+        "Clerk",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://trainify-weld.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/PaulFranciz/Trainify.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dzrnkgvts/video/upload/v1746027654/Screen_Recording_2025-04-30_at_16.37.51_fqddpz.mov",
+    },
+   
     {
       title: "Nextbud",
       href: "https://nextbudapp.com",
@@ -176,7 +256,6 @@ export const DATA = {
         "Tailwind css",
         "Shadcn UI",
         "Radix",
-        "Sanity CMS",
         "Paystack",
       ],
       links: [
@@ -185,12 +264,10 @@ export const DATA = {
           href: "https://Rehabifyhealth.com",
           icon: <Icons.globe className="size-3" />,
         },
-       
       ],
       image: "",
       video: "https://portfolio-video-demo.netlify.app/videos/rehabify-vid.mp4",
     },
-
     {
       title: "Otoño - music player",
       href: "https://otono-music.netlify.app",
@@ -219,7 +296,6 @@ export const DATA = {
       image: "",
       video: "https://portfolio-video-demo.netlify.app/videos/Otono video demo.mp4",
     },
-  
     {
       title: "Tesser",
       href: "https://tesser.netlify.app/",
@@ -259,7 +335,6 @@ export const DATA = {
       image:
         "",
       links: [
-      
         {
           title: "OrderNow",
           icon: <Icons.globe className="h-4 w-4" />,
@@ -276,7 +351,6 @@ export const DATA = {
       image:
         "",
       links: [
-      
         {
           title: "TicketCrib",
           icon: <Icons.globe className="h-4 w-4" />,
@@ -284,7 +358,6 @@ export const DATA = {
         },
       ],
     },
-   
     {
       title: "Team Lead at Rehabify",
       dates: "Leadership and Team Collaboration",
@@ -317,7 +390,6 @@ export const DATA = {
         "/DF24-Logo-Lockup_xeJa5Hb.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
-    },
-  
-  ],
+    }
+  ]
 } as const;
