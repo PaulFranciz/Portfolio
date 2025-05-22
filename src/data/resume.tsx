@@ -131,6 +131,38 @@ export const DATA = {
     },
   ],
   projects: [
+      {
+        title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
+        href: "https://www.rehabifylearn.com",
+        dates: "May 2025 - Present",
+        active: true,
+        description:
+          `A comprehensive learning platform for rehabilitation professionals. Access courses, interactive exercises, and certification programs designed to enhance rehabilitation knowledge and techniques.`,
+        technologies: [
+          "Next.js",
+          "Sanity CMS",
+          "Clerk",
+          "PayStack",
+          "Typescript",
+          "TailwindCSS",
+          "Shadcn UI",
+        ],
+        links: [
+          {
+            type: "Website",
+            href: "https://www.rehabifylearn.com",
+            icon: <Icons.globe className="size-3" />,
+          },
+          // {
+          //   type: "Source",
+          //   href: "https://github.com/PaulFranciz/Rehabify-Learn.git",
+          //   icon: <Icons.github className="size-3" />,
+          // },
+        ],
+        image: "https://rehabifylearn.com/image/og-image.webp",
+        video:
+          "",
+      },
     {
       title: "Hogis OrderNow - Online Food Ordering & Delivery",
       href: "https://hogis-group-order-now.vercel.app",
