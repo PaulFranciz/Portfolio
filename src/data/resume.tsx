@@ -76,9 +76,21 @@ export const DATA = {
         "I spearheaded the development of the Landing page and the admin dashboard using Next.js, significantly improving data management efficiency by 40% through the implementation of real-time monitoring and updates. By collaborating closely with the design team to adhere to accessibility standards, I enhanced usability across diverse user groups, resulting in a 20% increase in user satisfaction. Additionally, I optimized the dashboard's performance through techniques such as lazy loading and code splitting, cutting initial load times by 50% to ensure a seamless and efficient user experience.",
     },
     {
+      company: "Rehabify Learn",
+      badges: [],
+      href: "https://www.rehabifylearn.com",
+      location: "Remote",
+      title: "Lead Software Engineer",
+      logoUrl: "/Rehabify.jpeg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        `I led and built RehabifyLearn, a comprehensive learning management system using Next.js 15, React 19, and TypeScript that integrates Sanity CMS for content management, Clerk for authentication, and Paystack for secure payments, featuring a user-centric interface with custom dark mode using honeydew-tinted text, responsive design across all devices, modular course structure with real-time progress tracking, multimedia support, and optimized performance through server components.`,
+    },
+    {
       company: "Rehabify",
       badges: [],
-      href: "https://rehabifyng.com",
+      href: "https://www.rehabifyhealth.com",
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "/Rehabify.jpeg",
