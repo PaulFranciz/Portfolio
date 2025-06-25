@@ -132,12 +132,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Urban Vogue - E-commerce Platform",
-      href: "https://urban-vogue-psi.vercel.app/",
-      dates: "June 2025 - Present",
+      title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
+      href: "https://www.rehabifylearn.com",
+      dates: "May 2025 - Present",
       active: true,
       description:
-        `A comprehensive e-commerce platform for clothing and accessories.`,
+        `A comprehensive learning platform for rehabilitation professionals. Access courses, interactive exercises, and certification programs designed to enhance rehabilitation knowledge and techniques.`,
       technologies: [
         "Next.js",
         "Sanity CMS",
@@ -150,7 +150,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://urban-vogue-psi.vercel.app/",
+          href: "https://www.rehabifylearn.com",
           icon: <Icons.globe className="size-3" />,
         },
         // {
@@ -159,7 +159,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1750873440/localhost_3000__Nest_Hub_Max_43_tm8xy0.webp",
+      image: "https://rehabifylearn.com/image/og-image.webp",
       video:
         "",
     },

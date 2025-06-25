@@ -214,7 +214,7 @@ export default function Page() {
                   with a direct question on 𝕏 
                 </Link>{""}
                 {" "} and I&apos;ll respond immediately I see it. <br />
-                📧 pauledet339@gmail.com
+                📧 paulfranciz001@gmail.com
               </p>
             </div>
           </BlurFade>

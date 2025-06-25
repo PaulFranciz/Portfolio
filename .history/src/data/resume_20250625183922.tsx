@@ -150,7 +150,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://urban-vogue-psi.vercel.app/",
+          href: "https://www.rehabifylearn.com",
           icon: <Icons.globe className="size-3" />,
         },
         // {
@@ -159,7 +159,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1750873440/localhost_3000__Nest_Hub_Max_43_tm8xy0.webp",
+      image: "https://rehabifylearn.com/image/og-image.webp",
       video:
         "",
     },

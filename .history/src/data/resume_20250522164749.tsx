@@ -131,38 +131,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Urban Vogue - E-commerce Platform",
-      href: "https://urban-vogue-psi.vercel.app/",
-      dates: "June 2025 - Present",
-      active: true,
-      description:
-        `A comprehensive e-commerce platform for clothing and accessories.`,
-      technologies: [
-        "Next.js",
-        "Sanity CMS",
-        "Clerk",
-        "PayStack",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://urban-vogue-psi.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/PaulFranciz/Rehabify-Learn.git",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1750873440/localhost_3000__Nest_Hub_Max_43_tm8xy0.webp",
-      video:
-        "",
-    },
       {
         title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
         href: "https://www.rehabifylearn.com",
