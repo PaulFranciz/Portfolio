@@ -132,6 +132,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Rehabifyhealth",
+      href: "https://Rehabifyhealth.com",
+      dates: "Aug 2024 - Present",
+      active: true,
+      description:
+        "Connect with qualified physiotherapists for personalized care. Book online sessions, track your progress, and improve your health with expert guidance.",
+      technologies: [
+        "SaaS",
+        "NextJs",
+        "TypeScript",
+        "Firebase",
+        "Posthog",
+        "Zustand",
+        "Tailwind css",
+        "Shadcn UI",
+        "Radix",
+        "Paystack",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://Rehabifyhealth.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://portfolio-video-demo.netlify.app/videos/rehabify-vid.mp4",
+    },
+    {
       title: "Urban Vogue - E-commerce Platform",
       href: "https://urban-vogue-psi.vercel.app/",
       dates: "June 2025 - Present",
@@ -315,35 +344,7 @@ export const DATA = {
       video:
         "https://portfolio-video-demo.netlify.app/videos/Nextbud-vid.mp4",
     },
-    {
-      title: "Rehabify",
-      href: "https://Rehabifyhealth.com",
-      dates: "Aug 2024 - Present",
-      active: true,
-      description:
-        "Connect with qualified physiotherapists for personalized care. Book online sessions, track your progress, and improve your health with expert guidance.",
-      technologies: [
-        "SaaS",
-        "NextJs",
-        "TypeScript",
-        "Firebase",
-        "Posthog",
-        "Zustand",
-        "Tailwind css",
-        "Shadcn UI",
-        "Radix",
-        "Paystack",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://Rehabifyhealth.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://portfolio-video-demo.netlify.app/videos/rehabify-vid.mp4",
-    },
+
     {
       title: "Otoño - music player",
       href: "https://otono-music.netlify.app",
