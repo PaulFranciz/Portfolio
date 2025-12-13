@@ -8,10 +8,10 @@ export const DATA = {
   location: "Calabar, Cross River State",
   locationLink: "https://maps.app.goo.gl/BgGw4aVoYwKjutUX6",
   description:
-    "Senior Frontend Engineer. I love building things and helping people. Very active on 𝕏.",
+    "Software Engineer. I love building things and helping people. Very active on 𝕏.",
   summary:
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle—architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
-  avatarUrl: "/me.webp",
+  avatarUrl: "https://avatars.githubusercontent.com/u/112461104?v=4",
   skills: [
     "Typescript",
     "Next.js",
@@ -68,7 +68,7 @@ export const DATA = {
       href: "https://nextbudapp.com",
       badges: [],
       location: "Remote",
-      title: "Senior Frontend Engineer",
+      title: "Software Engineer",
       logoUrl: "/Nextbud.jpg",
       start: "Aug, 2024",
       end: "Jan, 2025",
@@ -163,38 +163,38 @@ export const DATA = {
       video:
         "",
     },
-      {
-        title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
-        href: "https://www.rehabifylearn.com",
-        dates: "May 2025 - Present",
-        active: true,
-        description:
-          `A comprehensive learning platform for rehabilitation professionals. Access courses, interactive exercises, and certification programs designed to enhance rehabilitation knowledge and techniques.`,
-        technologies: [
-          "Next.js",
-          "Sanity CMS",
-          "Clerk",
-          "PayStack",
-          "Typescript",
-          "TailwindCSS",
-          "Shadcn UI",
-        ],
-        links: [
-          {
-            type: "Website",
-            href: "https://www.rehabifylearn.com",
-            icon: <Icons.globe className="size-3" />,
-          },
-          // {
-          //   type: "Source",
-          //   href: "https://github.com/PaulFranciz/Rehabify-Learn.git",
-          //   icon: <Icons.github className="size-3" />,
-          // },
-        ],
-        image: "https://rehabifylearn.com/image/og-image.webp",
-        video:
-          "",
-      },
+    {
+      title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
+      href: "https://www.rehabifylearn.com",
+      dates: "May 2025 - Present",
+      active: true,
+      description:
+        `A comprehensive learning platform for rehabilitation professionals. Access courses, interactive exercises, and certification programs designed to enhance rehabilitation knowledge and techniques.`,
+      technologies: [
+        "Next.js",
+        "Sanity CMS",
+        "Clerk",
+        "PayStack",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.rehabifylearn.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/PaulFranciz/Rehabify-Learn.git",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "https://rehabifylearn.com/image/og-image.webp",
+      video:
+        "",
+    },
     {
       title: "Hogis OrderNow - Online Food Ordering & Delivery",
       href: "https://hogis-group-order-now.vercel.app",
@@ -287,7 +287,7 @@ export const DATA = {
       image: "",
       video: "https://res.cloudinary.com/dzrnkgvts/video/upload/v1746027654/Screen_Recording_2025-04-30_at_16.37.51_fqddpz.mov",
     },
-   
+
     {
       title: "Nextbud",
       href: "https://nextbudapp.com",
@@ -353,9 +353,9 @@ export const DATA = {
         "Minimalistic music player | A limited range of handpicked songs using a simple but sleek interface.",
       technologies: [
         "React.js",
-        "TypeScript", 
-         "RESTful API",
-         "Redux"
+        "TypeScript",
+        "RESTful API",
+        "Redux"
       ],
       links: [
         {
@@ -381,9 +381,9 @@ export const DATA = {
         "Tesser is a project management tool | Features similar capabilities as Jira",
       technologies: [
         "React.js",
-        "TypeScript", 
-         "SCSS",
-         "Redux"
+        "TypeScript",
+        "SCSS",
+        "Redux"
       ],
       links: [
         {
