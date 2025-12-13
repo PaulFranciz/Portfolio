@@ -225,6 +225,33 @@ export const DATA = {
         "",
     },
     {
+      title: "Nextbud (Now Jami)",
+      href: "https://nextbudapp.com",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Connecting African immigrants in a new country to fellow Africans and Local African-Owned businesses.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Redux",
+        "TailwindCSS",
+        "Firebase",
+        "Shadcn UI",
+        "SaaS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nextbudapp.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://portfolio-video-demo.netlify.app/videos/Nextbud-vid.mp4",
+    },
+    {
       title: "Hogis OrderNow - Online Food Ordering & Delivery",
       href: "https://hogis-group-order-now.vercel.app",
       dates: "Jan 2025 - Present",
@@ -317,33 +344,7 @@ export const DATA = {
       video: "https://res.cloudinary.com/dzrnkgvts/video/upload/v1746027654/Screen_Recording_2025-04-30_at_16.37.51_fqddpz.mov",
     },
 
-    {
-      title: "Nextbud",
-      href: "https://nextbudapp.com",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Connecting African immigrants in a new country to fellow Africans and Local African-Owned businesses.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Redux",
-        "TailwindCSS",
-        "Firebase",
-        "Shadcn UI",
-        "SaaS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nextbudapp.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://portfolio-video-demo.netlify.app/videos/Nextbud-vid.mp4",
-    },
+
 
     {
       title: "Otoño - music player",
