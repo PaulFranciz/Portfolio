@@ -8,7 +8,7 @@ export const DATA = {
   location: "Calabar, Cross River State",
   locationLink: "https://maps.app.goo.gl/BgGw4aVoYwKjutUX6",
   description:
-    "Software Engineer. I love building things and helping people. Very active on 𝕏. Helping founders bring ideas to life with fast, SEO-optimized builds.",
+    "Software Engineer. I love building things and helping founders bring ideas to life with fast, SEO-optimized builds. Very active on 𝕏.",
   summary:
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle, architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
   avatarUrl: "https://avatars.githubusercontent.com/u/112461104?v=4",
@@ -18,15 +18,14 @@ export const DATA = {
     "React",
     "Convex",
     "Clerk",
-    "NoSQL",
-    "SQL",
+    "SQL & NoSQL Databases",
     "Sanity",
     "Redis",
+    "Docker",
     "TailwindCSS",
     "Git",
     "Github",
     "Figma",
-    "Shadcn UI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -66,7 +65,7 @@ export const DATA = {
     {
       company: "Goshen",
       href: "#",
-      badges: [],
+      badges: ["Freelance"],
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "/Goshen.jpeg",
@@ -75,7 +74,7 @@ export const DATA = {
       description: "",
     },
     {
-      company: "Nextbud",
+      company: "Nextbud (Now Jami)",
       href: "https://nextbudapp.com",
       badges: [],
       location: "Remote",
@@ -99,11 +98,11 @@ export const DATA = {
         `I led and built RehabifyLearn, a comprehensive learning management system using Next.js 15, React 19, and TypeScript that integrates Sanity CMS for content management, Clerk for authentication, and Paystack for secure payments, featuring a user-centric interface with custom dark mode using honeydew-tinted text, responsive design across all devices, modular course structure with real-time progress tracking, multimedia support, and optimized performance through server components.`,
     },
     {
-      company: "Rehabify",
+      company: "RehabifyHealth",
       badges: [],
       href: "https://www.rehabifyhealth.com",
       location: "Remote",
-      title: "Software Engineer",
+      title: "CTO | Software Engineer",
       logoUrl: "/Rehabify.jpeg",
       start: "August 2024",
       end: "Present",
@@ -113,7 +112,7 @@ export const DATA = {
     {
       company: "Hogis Group",
       href: "https://www.hogisluxurysuites.com",
-      badges: [],
+      badges: ["Freelance"],
       location: "Santa Clara, CA",
       title: "Software Engineer",
       logoUrl: "/Hogis-group.jpg",
@@ -122,12 +121,24 @@ export const DATA = {
       description:
         "Led the development of a comprehensive digital menu platform that seamlessly incorporated customer feedback mechanisms. Enhanced the user experience through custom motion design advertisements, which contributed significantly to business growth, achieving a 60% increase in sales revenue.",
     },
+    {
+      company: "Circo Digital Academy",
+      href: "#",
+      badges: ["Contract"],
+      location: "Calabar, Nigeria",
+      title: "React Native Instructor",
+      logoUrl: "/circo.jpeg",
+      start: "June 2025",
+      end: "Aug. 2025",
+      description:
+        "Delivered comprehensive React Native training to aspiring mobile developers, covering core concepts including component architecture, state management, navigation, and native module integration. Designed and implemented hands-on curriculum with real-world projects, enabling students to build production-ready cross-platform mobile applications. Mentored students through the complete app development lifecycle from ideation to deployment.",
+    },
   ],
   education: [
     {
       school: "Scrimba",
       href: "https://v2.scrimba.com",
-      degree: "Frontend Engineering",
+      degree: "Software Engineering",
       logoUrl: "/scrimba_logo.jpeg",
       start: "2022",
       end: "2023",
@@ -135,7 +146,7 @@ export const DATA = {
     {
       school: "University of Calabar",
       href: "https://unical.edu.ng",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor's Degree of Biochemistry",
       logoUrl: "/logo-wide.png",
       start: "2019",
       end: "2024",
@@ -169,7 +180,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://portfolio-video-demo.netlify.app/videos/rehabify-vid.mp4",
+      video: "https://res.cloudinary.com/dzrnkgvts/video/upload/q_auto,f_auto/v1765633499/rehabifyhealth_online-video-cutter.com_w0mzve.mp4",
     },
     {
       title: "Urban Vogue - E-commerce Platform",
@@ -201,7 +212,58 @@ export const DATA = {
       ],
       image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1750873440/localhost_3000__Nest_Hub_Max_43_tm8xy0.webp",
       video:
-        "",
+        "https://res.cloudinary.com/dzrnkgvts/video/upload/q_auto,f_auto/v1765633548/Screen_Recording_2025-12-13_at_2.41.45_PM_envjwf.mp4",
+    },
+    {
+      title: "Nextbud (Now Jami)",
+      href: "https://nextbudapp.com",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Connecting African immigrants in a new country to fellow Africans and Local African-Owned businesses.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Redux",
+        "TailwindCSS",
+        "Firebase",
+        "Shadcn UI",
+        "SaaS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nextbudapp.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://portfolio-video-demo.netlify.app/videos/Nextbud-vid.mp4",
+    },
+    {
+      title: "Goshen Physiotherapy",
+      href: "https://www.goshenphysiotherapyng.org",
+      dates: "December 2025 - Present",
+      active: true,
+      description:
+        "A comprehensive digital platform for Goshen Physiotherapy, designed to streamline patient engagement and service delivery. Features include appointment scheduling, detailed service catalogs, and an informative health blog, all wrapped in a modern, responsive design for an optimal user experience.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.goshenphysiotherapyng.org",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dzrnkgvts/video/upload/q_auto,f_auto/v1765635263/Goshen_t4kumd.mov",
     },
     {
       title: "Rehabify Learn - Interactive Rehabilitation Education Platform",
@@ -235,33 +297,7 @@ export const DATA = {
       video:
         "",
     },
-    {
-      title: "Nextbud (Now Jami)",
-      href: "https://nextbudapp.com",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Connecting African immigrants in a new country to fellow Africans and Local African-Owned businesses.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Redux",
-        "TailwindCSS",
-        "Firebase",
-        "Shadcn UI",
-        "SaaS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nextbudapp.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://portfolio-video-demo.netlify.app/videos/Nextbud-vid.mp4",
-    },
+
     {
       title: "Hogis OrderNow - Online Food Ordering & Delivery",
       href: "https://hogis-group-order-now.vercel.app",
@@ -293,157 +329,79 @@ export const DATA = {
       video:
         "",
     },
-    {
-      title: "TicketCrib - A Ticketing Platform",
-      href: "https://ticket-crib.vercel.app/",
-      dates: "Feb 2025 - Present",
-      active: true,
-      description:
-        `TicketCrib is a real-time event ticketing platform built with Next.js, Convex, Clerk, and Paystack. It features real-time ticket availability, smart queue management, secure payment processing, digital ticketing with QR codes, and automated refunds. The platform leverages modern UI libraries (Tailwind CSS, shadcn/ui) for a responsive, accessible user experience and integrates authentication and real-time backend updates for seamless event management and ticket sales.`,
-      technologies: [
-        "Next.js",
-        "Convex",
-        "Clerk",
-        "Typescript",
-        "Paystack",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ticket-crib.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/OtuEmmanuella/TicketCrib.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1746032511/ChatGPT_Image_Apr_30_2025_06_01_28_PM_aahqsv.png",
-      video: "",
-    },
-    {
-      title: "Trainify - A Learning Management System",
-      href: "https://trainify-weld.vercel.app/",
-      dates: "March 2025 - Present",
-      active: true,
-      description:
-        `A modern, feature-rich Learning Management System built with Next.js 15, Sanity CMS, Clerk, and Stripe. Features real-time content updates, course progress tracking, and secure payment processing.`,
-      technologies: [
-        "Next.js",
-        "Sanity",
-        "Clerk",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://trainify-weld.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/PaulFranciz/Trainify.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://res.cloudinary.com/dzrnkgvts/video/upload/v1746027654/Screen_Recording_2025-04-30_at_16.37.51_fqddpz.mov",
-    },
 
 
-
-    {
-      title: "Otoño - music player",
-      href: "https://otono-music.netlify.app",
-      dates: "Jan 2025",
-      active: true,
-      description:
-        "Minimalistic music player | A limited range of handpicked songs using a simple but sleek interface.",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "RESTful API",
-        "Redux"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://otono-music.netlify.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/PaulFranciz/Otono",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://portfolio-video-demo.netlify.app/videos/Otono video demo.mp4",
-    },
-    {
-      title: "Tesser",
-      href: "https://tesser.netlify.app/",
-      dates: "Jan 2025",
-      active: true,
-      description:
-        "Tesser is a project management tool | Features similar capabilities as Jira",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "SCSS",
-        "Redux"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://tesser.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/PaulFranciz/Tesser",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "#",
-    },
+    // {
+    //   title: "Otoño - music player",
+    //   href: "https://otono-music.netlify.app",
+    //   dates: "Jan 2025",
+    //   active: true,
+    //   description:
+    //     "Minimalistic music player | A limited range of handpicked songs using a simple but sleek interface.",
+    //   technologies: [
+    //     "React.js",
+    //     "TypeScript",
+    //     "RESTful API",
+    //     "Redux"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://otono-music.netlify.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/PaulFranciz/Otono",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://portfolio-video-demo.netlify.app/videos/Otono video demo.mp4",
+    // },
+    // {
+    //   title: "Tesser",
+    //   href: "https://tesser.netlify.app/",
+    //   dates: "Jan 2025",
+    //   active: true,
+    //   description:
+    //     "Tesser is a project management tool | Features similar capabilities as Jira",
+    //   technologies: [
+    //     "React.js",
+    //     "TypeScript",
+    //     "SCSS",
+    //     "Redux"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://tesser.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/PaulFranciz/Tesser",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "#",
+    // },
   ],
   hackathons: [
     {
-      title: "Hogis-OrderNow",
+      title: "Screenlify",
       dates: "Currently Working On",
       location: "",
       description:
-        " full-featured online food ordering platform built with Next.js and TypeScript. It supports user authentication, shared cart functionality, payment integration, and an admin dashboard for order and menu management. The application features a modern UI   with Tailwind CSS and leverages Convex for backend operations.",
+        "A comprehensive digital signage and advertising platform built with Next.js, TypeScript, and Convex. Features a Player app for displaying dynamic content on screens, a Web Admin dashboard for managing campaigns, venues, and analytics, real-time content synchronization, proof-of-play tracking, and Cloudflare R2 integration for media storage. The platform enables businesses to manage targeted advertising across multiple screen locations.",
       image:
         "",
       links: [
         {
-          title: "OrderNow",
+          title: "Screenlify",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://hogis-group-order-now.vercel.app/",
-        },
-      ],
-    },
-    {
-      title: "TicketCrib",
-      dates: "Currently Working On",
-      location: "",
-      description:
-        `Developed TicketCrib, a real-time event ticketing platform built with Next.js, Convex, Clerk, and Paystack. Implemented features including real-time ticket availability, smart queue management, secure payment processing, digital ticketing with QR codes, and automated refunds. Leveraged modern UI libraries (Tailwind CSS, shadcn/ui) for a responsive, accessible user experience, and integrated authentication and real-time backend updates for seamless event management and ticket sales.`,
-      image:
-        "",
-      links: [
-        {
-          title: "TicketCrib",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://ticket-crib.vercel.app/",
+          href: "https://screenlify-web-marketing.vercel.app/",
         },
       ],
     },

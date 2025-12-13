@@ -20,7 +20,7 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-pally"
+                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-sans"
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
@@ -41,7 +41,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold font-pally">About</h2>
+          <h2 className="text-xl font-bold font-sans">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-pally text-sm text-muted-foreground dark:prose-invert">
@@ -52,7 +52,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold font-pally">Work Experience</h2>
+            <h2 className="text-xl font-bold font-sans">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -77,7 +77,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold font-pally">Education</h2>
+            <h2 className="text-xl font-bold font-sans">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -100,7 +100,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold font-pally">Skills</h2>
+            <h2 className="text-xl font-bold font-sans">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -119,7 +119,7 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-pally">
                   My Projects
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-pally">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-sans">
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-pally">
@@ -160,16 +160,16 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-pally">
                   Beyond Projects
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-pally">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-sans">
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-pally">
-                   As a software developer,{" "}
-                  I thrive on collaboration and community engagement. 
-                  I am passionate about contributing to open-source projects, 
+                  As a software developer,{" "}
+                  I thrive on collaboration and community engagement.
+                  I am passionate about contributing to open-source projects,
                   sharing knowledge through mentorship and workshops,
-                   and volunteering to empower others in tech. 
-                   My focus is on building meaningful connections and fostering innovation through collective growth.
+                  and volunteering to empower others in tech.
+                  My focus is on building meaningful connections and fostering innovation through collective growth.
                 </p>
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function Page() {
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-pally">
                 Contact
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-pally">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-sans">
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-pally">
@@ -211,10 +211,17 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline font-pally"
                 >
-                  with a direct question on 𝕏 
-                </Link>{""}
-                {" "} and I&apos;ll respond immediately I see it. <br />
-                📧 paulfranciz001@gmail.com
+                  with a direct question on 𝕏
+                </Link>{" "}
+                and I&apos;ll respond immediately I see it. <br />
+                📧 paulfranciz001@gmail.com <br />
+                <Link
+                  href="https://wa.me/2347061188005"
+                  className="text-green-500 hover:underline font-pally"
+                  target="_blank"
+                >
+                  💬 Chat on WhatsApp
+                </Link>
               </p>
             </div>
           </BlurFade>
