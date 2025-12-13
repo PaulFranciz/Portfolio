@@ -8,7 +8,7 @@ export const DATA = {
   location: "Calabar, Cross River State",
   locationLink: "https://maps.app.goo.gl/BgGw4aVoYwKjutUX6",
   description:
-    "Software Engineer. I love building things and helping people. Very active on 𝕏.",
+    "Software Engineer. I love building things and helping people. Very active on 𝕏. Helping founders bring ideas to life with fast, SEO-optimized builds.",
   summary:
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle—architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
   avatarUrl: "https://avatars.githubusercontent.com/u/112461104?v=4",
