@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer. I love building things and helping founders bring ideas to life with fast, SEO-optimized builds. Very active on 𝕏.",
   summary:
     "I transformed my tech journey by shifting from a developer mindset to a software engineer's perspective. This change unlocked a world beyond just coding; I now tackle complex challenges across the entire software lifecycle, architecting solutions, optimizing scalability, ensuring robust security, and crafting resilient infrastructures. It’s more than mastering frameworks; it’s about engineering impactful, end-to-end solutions that elevate user experiences and drive innovation. This evolution has empowered me to think not just in terms of tools, but in terms of crafting solutions that shape the future.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/112461104?v=4",
+  avatarUrl: "/Paul-F.jpeg",
   skills: [
     "Typescript",
     "Next.js",
@@ -164,7 +164,9 @@ export const DATA = {
         "SaaS",
         "NextJs",
         "TypeScript",
-        "Firebase",
+        "ConvexDB",
+        "Clerk",
+        "Cloudflare R2",
         "Posthog",
         "Zustand",
         "Tailwind css",
@@ -329,64 +331,6 @@ export const DATA = {
       video:
         "",
     },
-
-
-    // {
-    //   title: "Otoño - music player",
-    //   href: "https://otono-music.netlify.app",
-    //   dates: "Jan 2025",
-    //   active: true,
-    //   description:
-    //     "Minimalistic music player | A limited range of handpicked songs using a simple but sleek interface.",
-    //   technologies: [
-    //     "React.js",
-    //     "TypeScript",
-    //     "RESTful API",
-    //     "Redux"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://otono-music.netlify.app",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/PaulFranciz/Otono",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://portfolio-video-demo.netlify.app/videos/Otono video demo.mp4",
-    // },
-    // {
-    //   title: "Tesser",
-    //   href: "https://tesser.netlify.app/",
-    //   dates: "Jan 2025",
-    //   active: true,
-    //   description:
-    //     "Tesser is a project management tool | Features similar capabilities as Jira",
-    //   technologies: [
-    //     "React.js",
-    //     "TypeScript",
-    //     "SCSS",
-    //     "Redux"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://tesser.netlify.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/PaulFranciz/Tesser",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "#",
-    // },
   ],
   hackathons: [
     {
