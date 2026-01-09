@@ -43,13 +43,13 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/yQres2n",
+        url: "https://www.linkedin.com/in/paulfranciz",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/Paul_Franciz",
+        url: "https://x.com/Paul_Franciz",
         icon: Icons.x,
         navbar: true,
       },
@@ -62,6 +62,18 @@ export const DATA = {
     },
   },
   work: [
+    {
+      company: "Circo Digital Academy",
+      href: "https://www.circodigitalacademy.com",
+      badges: ["Freelance"],
+      location: "Calabar, Nigeria",
+      title: "Software Engineer",
+      logoUrl: "/circo.jpeg",
+      start: "Dec 2025",
+      end: "Jan 2026",
+      description:
+        "Built a comprehensive ed-tech platform using Next.js and Convex, featuring real-time video calls, livestreaming, Paystack payments, role-based access control, certificate generation, forums, and an in-app messaging system with offline detection.",
+    },
     {
       company: "Goshen",
       href: "#",
@@ -153,6 +165,37 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Circo Digital Academy",
+      href: "https://www.circodigitalacademy.com",
+      dates: "Dec 22 2025 - Jan 09 2026",
+      active: true,
+      description:
+        "Developed a comprehensive ed-tech platform using Next.js and Convex, featuring real-time video calls, livestreaming, Paystack payments, role-based access control, certificate generation, forums, and an in-app messaging system with offline detection.",
+      technologies: [
+        "SaaS",
+        "NextJs",
+        "TypeScript",
+        "Convex (real-time backend)",
+        "Clerk",
+        "Sanity CMS",
+        "Stream Video SDK, Gumlet",
+        "Resend, React Email",
+        "ImageKit",
+        "Tailwind css",
+        "shadcn/ui, Radix UI, Tremor",
+        "Paystack",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.circodigitalacademy.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dzrnkgvts/image/upload/v1767961040/circo-cover-image.webp",
+      video: "https://res.cloudinary.com/dzrnkgvts/video/upload/q_auto:good,f_auto,w_1280,h_720,br_1.5m/circo-demo.mp4",
+    },
     {
       title: "Rehabifyhealth",
       href: "https://Rehabifyhealth.com",
